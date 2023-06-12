@@ -1,0 +1,7 @@
+#alias {zanand} {
+#if {%1 = "off"} {#untrigger pegaInv} {
+#trigger {<pegaInv>Em um piscar de olhos, o efeito da invisibilidade no seu corpo deixa de existir.} {.ervas} {};
+.ervas
+}
+} {}
+#alias {.ervas} {#Alarm ok -1 {#ok};N;lan are;N;N;N;N;N;N;N;N;a n;N;a n;N;E;pe tudo arbusto;N;pe tudo arbusto;N;pe tudo arbusto;W;W;pe tudo arbusto;S;pe tudo arbusto;S;pe tudo arbusto;E;a s;S;a s;S;S;S;W;W;W;S;S;S;S;S;S;S;S;W;a w;W;W;W;W;W;W;W;W;W;W;nw;pe tudo arbusto;se;S;S;S;S;S;S;S;W;W;W;W;W;W;W;W;W;S;S;S;S;W;W;W;W;W;W;N;W;W;W;S;c;pe tudo arbusto;pe tudo 2.arbusto;pe tudo 3.arbusto;pe tudo 4.arbusto;pe tudo 5.arbusto;S;pe tudo arbusto;pe tudo 2.arbusto;pe tudo 3.arbusto;pe tudo 4.arbusto;pe tudo 5.arbusto;S;pe tudo arbusto;pe tudo 2.arbusto;pe tudo 3.arbusto;pe tudo 4.arbusto;pe tudo 5.arbusto;lan clari;S;S;E;E;E;E;a e;E;E;E;E;E;E;E;E;E;E;S;S;S;S;S;E;E;E;E;E;S;S;S;S;S;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;N;N;N;W;pe tudo arbusto;pe tudo 2.arbusto;lan clari;run;dar tudo.erva lino;#unalarm ok}
